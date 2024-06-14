@@ -5,5 +5,5 @@ services:
     image: consoleapp:v2
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: Dockerfile
     container_name: consoleapp
