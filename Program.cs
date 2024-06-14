@@ -4,7 +4,7 @@ while (true)
 {
     // Her döngüde bir şeyler yapabilirsiniz
     // Örneğin, bir mesaj yazdırabilir veya kullanıcıdan bir giriş bekleyebilirsiniz
-    Console.WriteLine("Program hala çalışıyor. Çıkmak için 'q' tuşuna basın.");
+    Console.WriteLine("Çalışıyor");
 
     // Kullanıcı 'q' tuşuna basarsa döngüyü kırıyoruz
     if (Console.ReadLine() == "q")
