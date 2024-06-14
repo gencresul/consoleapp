@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  consoleapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: consoleapp:latest
+    container_name: consoleapp
+    entrypoint: ["dotnet", "consoleapp.dll"]
